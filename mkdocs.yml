@@ -1,0 +1,13 @@
+site_name: MkDocs Basics
+nav:
+  - Getting Started: index.md
+  - Customization: about.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - toc.integrate
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: purple

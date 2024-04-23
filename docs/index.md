@@ -11,7 +11,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 To install MkDocs, run the following command:
 
 ```
-pip install mkdocs
+pip install mkdocs-material
 ```
 
 ## Set Up Project
