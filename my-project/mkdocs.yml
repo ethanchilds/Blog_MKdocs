@@ -1,5 +1,5 @@
 site_name: MkDocs Basics
 nav:
-  - Getting Started: index.md
+  - Getting Started: home.md
   - Customization: about.md
 theme: readthedocs
