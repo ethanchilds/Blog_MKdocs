@@ -1,4 +1,0 @@
-# Customization in MkDocs
-
-## Title
-
