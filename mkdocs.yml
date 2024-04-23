@@ -9,5 +9,4 @@ theme:
     - toc.integrate
   palette:
     - scheme: slate
-      primary: teal
-      accent: purple
+      primary: purple
