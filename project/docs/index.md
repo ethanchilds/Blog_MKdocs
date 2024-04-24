@@ -1,3 +1,7 @@
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
+
 # Getting Started
 
 Welcome to MkDocs! MkDocs is a simple and lightweight static site generator, great for project documentation or blogs. MkDocs is built off of your basic markdown file and while this adds to the simplicity, it does come with some draw backs as it is restricted to just the functionalities that an md has. For example, unlike a Quarto document, we will not be able to render graphics just by adding R code blocks, instead we will need to render it beforehand and then add it to the repository.
