@@ -2,17 +2,40 @@ site_name: MkDocs Basics
 nav:
   - Getting Started: index.md
   - Customization: customization.md
+  - Deployment: deploy.md
+
 repo_url: https://github.com/ethanchilds/Blog_MKdocs
+
 theme:
   name: material
   logo: img/favicon.ico
   favicon: img/favicon.ico
+
   icon:
     repo: fontawesome/brands/github-alt
+  
   features:
     - navigation.tabs
     - toc.integrate
+
   palette:
     - scheme: slate
       primary: purple
       accent: yellow
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

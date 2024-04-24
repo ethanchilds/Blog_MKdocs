@@ -28,6 +28,12 @@ Then run the following command:
 cd [project name]
 ```
 
+Optionally, if you would like to build the blog out of the existing directory, instead run the following command:
+
+```
+mkdocs new .
+```
+
 ## Run Your Website
 
 MkDocs comes with a built-in dev-server that lets you preview your documentation as you work on it. To use this, first make sure that you are in your projects directory, then run the following command:
