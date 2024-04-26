@@ -38,6 +38,6 @@ With this file you can deploy your website hosted on GitHub pages and when you p
 
 First, go to your repository settings. On the side bar of this page you will notice a tab called 'pages', click on this. Under "**Build and deployment**" have "Source" set to "Deploy from a branch" and "Branch" set to "gh-pages". If the ci.yml has not been included in the project "gh-pages" will not be an option at this stage. Finally save your preferences and after a minute your pages tab should appear as follows:
 
-![](img/pages.PNG)
+![](img/pages.PNG){ align=right }
 
 The link at the top of your pages tab will be the link to your new GitHub pages website.
